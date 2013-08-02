@@ -1,7 +1,12 @@
+#!/usr/bin/python
+
 import sys
 import re
 
 def main():
+    if len(sys.argv) != 4:
+        print "Usage: ./main.py <WIDTH> <HEIGHT> <BobLight.conf>"
+        sys.exit(1)
     H = int(sys.argv[1])
     V = int(sys.argv[2])
     conf = open(sys.argv[3], "rb").read()
