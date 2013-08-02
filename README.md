@@ -1,4 +1,6 @@
 BoblightTools
 =============
 
-Set of scripts to help you setup Boblight
+location_calc
+-------------
+Print the needed locations of the leds out of a boblight.conf file (in cm).
